@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasan Basuru - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">PB</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <span class="hero-greeting" data-aos="fade-up">Hello, I'm</span>
+                    <h1 class="hero-name" data-aos="fade-up" data-aos-delay="100">Pasan Basuru</h1>
+                    <h2 class="hero-title" data-aos="fade-up" data-aos-delay="200">I'm a <span id="typed-text"></span>
+                    </h2>
+                    <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                        Passionate about creating innovative automation solutions and pushing the boundaries
+                        of technology to solve real-world problems.
+                    </p>
+                    <div class="social-links" data-aos="fade-up" data-aos-delay="400">
+                        <a href="https://www.facebook.com/k.p.b.wijerathna" class="social-link" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pasanbasuruwijerathna/" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Pasanbasuru1124" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <div class="cv-button-wrapper" data-aos="fade-up" data-aos-delay="500">
+                        <a href="cv/Pasan Basuru resume.pdf" class="cv-button" download>
+                            <i class="fas fa-download"></i>
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                    <img src="image/Pasan.png" alt="Pasan Basuru">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="image/life.webp" alt="About Me">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Automation Engineer & IoT Developer</h3>
+                    <div class="about-description">
+                        <p>
+                            I am a Bachelor of Engineering Technology student at the University of Kelaniya, specializing in Robotics and                                                                   
+                            Automation. Passionate about optimizing industrial processes, I have hands-on experience in designing and             
+                            developing automation systems. My expertise includes algorithm development, control strategies, sensor  
+                            integration, and machine learning for automation.
+                        </p>
+                        <p>
+                            I have contributed to projects such as the Design and Creation of a Pneumatic System for Industrial 
+                            Application, the Smart Alcohol Detection and Engine Locking System, and the Water Hyacinth Removal and Waste-
+                            to-Energy System. My skills span mechanical design, simulation, and testing, alongside commissioning advanced 
+                            industrial systems.
+                        </p>
+                        <p>
+                            I’m eager to collaborate on innovative automation solutions and drive efficiencies across industries.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Latest <span class="highlight">Projects</span></h2>
+
+            <div class="category-filters" data-aos="fade-up">
+                <button class="category-btn active" data-category="All">All</button>
+                <button class="category-btn" data-category="Automation">Automation</button>
+                <button class="category-btn" data-category="IoT">IoT</button>
+                <button class="category-btn" data-category="Pneumatic">Pneumatic </button>
+                <button class="category-btn" data-category="Other">Other </button>
+
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
